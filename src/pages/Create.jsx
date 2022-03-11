@@ -1,13 +1,15 @@
-import React from "react";
-import Header from "../components/Header";
+import React from 'react'
+import Header from '../components/Header'
+import MemeGenerator from '../components/MemeGenerator'
 
 function Create() {
   return (
     <div>
       <Header />
-      <h2>here you will be able to create your own dev memes in the future!</h2>
+      <h2>meme generator!</h2>
+      <MemeGenerator />
     </div>
-  );
+  )
 }
 
-export default Create;
+export default Create
