@@ -1,0 +1,20 @@
+{
+  "memes": [
+    {
+      "id": "001",
+      "url": "https://64.media.tumblr.com/fa7195b14d979554f9b59cc3929450a3/d293e24a0e6fefd3-53/s500x750/fc393ba3428315eb943d86099c6f8713a0a85fe4.png"
+    },
+    {
+      "id": "002",
+      "url": "https://64.media.tumblr.com/4b92325d58d41c9410c606ba62018e28/02ea31e72253986a-c0/s1280x1920/4ea57efe87ed0f9ae8844a92e4c9a915597048ec.jpg"
+    },
+    {
+            "id": "003",
+            "url": "https://64.media.tumblr.com/df2fe60702eed40dc88a3cc84a2d6062/072cabad308a06c8-f6/s1280x1920/ea330308b501074ee18b2f51dc2edbc7263dce0d.jpg"
+    },
+    {
+            "id": "004",
+            "url": "https://64.media.tumblr.com/12a645d13469ce0dd1cbe073f0d92de1/2545f748331eb3a4-08/s640x960/1efafe652aa6bd02f1f35166370d9276d6097b31.jpg"
+    }
+  ]
+}
