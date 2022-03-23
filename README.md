@@ -16,5 +16,5 @@ Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
 
 ## Contribute
-If you want to contribute with developer/programming memes, just hit me up where I store them all:
+If you want to contribute with developer/programming memes, just hit me up where I store them all:\
 [dev-memes.tumblr.com](https://dev-memes.tumblr.com/)
