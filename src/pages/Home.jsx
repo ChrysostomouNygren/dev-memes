@@ -2,17 +2,15 @@ import React from "react";
 import Header from "../components/Header";
 import { memes } from "../components/memes.json";
 
-// randomize memes
 function Home() {
+  // With this variable I randomize the order of the meme array that my atom provide me with, since I got sick of seeing the same meme at the top every time.
+  const randomMemeArray = memes.sort(() => Math.random() - 0.5);
 
-  const randomMeme = memes[Math.floor(Math.random() * memes.length)]
-  
   return (
     <div>
       <Header />
       <main>
-
-        {memes.map((item) => (
+        {randomMemeArray.map((item) => (
           <img src={item.url} />
         ))}
       </main>
