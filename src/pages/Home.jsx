@@ -1,20 +1,18 @@
 import React from "react";
 import Header from "../components/Header";
 import MemeCarousel from "../components/MemeCarousel";
-// import { memes } from "../components/memes.json";
 
 function Home() {
-  // With this variable I randomize the order of the meme array that my atom provide me with, since I got sick of seeing the same meme at the top every time.
-  // const randomMemeArray = memes.sort(() => Math.random() - 0.5);
 
   return (
     <div>
       <Header />
       <main>
       <MemeCarousel />
-        {/* {randomMemeArray.map((item) => (
-          <img src={item.url} />
-        ))} */}
+
+      {/* Add a grid with all the memes, and make so if you click them they'll pop up in a modal for fuller size */}
+
+
       </main>
     </div>
   );
