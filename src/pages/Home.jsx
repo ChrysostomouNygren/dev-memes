@@ -1,4 +1,5 @@
 import React from "react";
+import Footer from "../components/Footer";
 import Header from "../components/Header";
 import MemeCarousel from "../components/MemeCarousel";
 
@@ -14,6 +15,7 @@ function Home() {
 
 
       </main>
+      <Footer />
     </div>
   );
 }
