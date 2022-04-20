@@ -14,7 +14,7 @@ function Header() {
         navigate(`/about`);
     }
     const all = () => {
-      navigate(`all`);
+      navigate(`/all`);
     }
 
 
