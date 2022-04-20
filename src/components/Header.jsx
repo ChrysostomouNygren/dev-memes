@@ -1,22 +1,21 @@
 import React from "react";
 import { useNavigate } from "react-router-dom";
+import "../styles/header.css";
 
 function Header() {
-
-    let navigate = useNavigate();
-    const home = () => {
-        navigate(`/`)
-    }
-    const create = () => {
-        navigate(`/create`);
-    }
-    const about = () => {
-        navigate(`/about`);
-    }
-    const all = () => {
-      navigate(`/all`);
-    }
-
+  let navigate = useNavigate();
+  const home = () => {
+    navigate(`/`);
+  };
+  const create = () => {
+    navigate(`/create`);
+  };
+  const about = () => {
+    navigate(`/about`);
+  };
+  const all = () => {
+    navigate(`/all`);
+  };
 
   return (
     <header>
@@ -25,7 +24,6 @@ function Header() {
       <button onClick={all}>All ze memez</button>
       <button onClick={create}>Create</button>
       <button onClick={about}>About</button>
-      
     </header>
   );
 }
