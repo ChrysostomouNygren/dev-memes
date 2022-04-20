@@ -1,16 +1,14 @@
-import React from 'react'
+import React from "react";
+import "../styles/footer.css";
 
 function Footer() {
-    const style = {
-        padding: "20px",
-        margin: "0px"
-    }
-
   return (
-    <div>
-        <h1 style={style}>Really ugly footer, fml (:</h1>
-    </div>
-  )
+    <footer>
+      <h5>
+        <a href="https://github.com/ChrysostomouNygren">© k.c.n.</a>
+      </h5>
+    </footer>
+  );
 }
 
-export default Footer
+export default Footer;
