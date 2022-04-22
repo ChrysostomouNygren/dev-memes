@@ -1,14 +1,27 @@
 .row img {
-    padding: 5px;
+  padding: 5px;
 }
 
 .col {
-    margin: 30px;
+  margin: 30px;
+  background-color: rgba(0, 0, 0, 0.087);
+  padding: 30px;
+}
+
+.box {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+h2,
+h5 {
+  font-family: "Comic Neue", cursive;
+  color: rgba(0, 0, 0, 0.703);
+  margin-left: 110px;
 }
 
 h2 {
-    font-family: "Comic Neue", cursive;
-    color: rgba(0, 0, 0, 0.703);
-    margin-left: 110px;
-    margin-top: 40px;
+  margin-top: 40px;
 }

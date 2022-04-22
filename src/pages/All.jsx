@@ -23,9 +23,6 @@ function All() {
         centered
       >
         <Modal.Header closeButton>
-          <Modal.Title id="contained-modal-title-vcenter">
-            Modal heading
-          </Modal.Title>
         </Modal.Header>
         <Modal.Body>
           <img src={url} width={"765px"} />
@@ -41,18 +38,21 @@ function All() {
     <div>
       <Header />
       <h2>MEMEZ 4 PEPZ</h2>
+      <h5>(click pic 4 fullsize)</h5>
       <Container>
         <Row xs={"auto"} md={"auto"} lg={"auto"}>
           <Col>
-            {memes.map((item) => (
-              <img
-                src={item.url}
-                onClick={() => {
-                  setModalShow(true), setUrl(item.url);
-                }}
-                width={"200px"}
-              />
-            ))}
+            <div className="box">
+              {memes.map((item) => (
+                <img
+                  src={item.url}
+                  onClick={() => {
+                    setModalShow(true), setUrl(item.url);
+                  }}
+                  width={"200px"}
+                />
+              ))}
+            </div>
             <MyVerticallyCenteredModal
               show={modalShow}
               onHide={() => setModalShow(false)}
