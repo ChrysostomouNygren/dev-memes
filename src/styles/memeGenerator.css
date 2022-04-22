@@ -4,9 +4,6 @@
 /* 3. Stylea genenerate-knappen */
 /* 4.  */
 
-
-
-
 .meme {
   position: relative;
   width: 90%;
@@ -16,6 +13,10 @@
 .meme-img {
   display: flex;
   justify-content: center;
+}
+
+.meme-img img {
+  width: 600px;
 }
 
 .meme > img {
@@ -50,15 +51,36 @@
 
 .meme-form {
   width: 90%;
-  margin: 20px auto;
+  margin-bottom: 40px;
   display: flex;
+  flex-direction: column;
+  align-items: flex-start;
   justify-content: space-between;
+  font-family: "Comic Neue", cursive;
 }
 
 .meme-form > input {
   width: 45%;
   height: 40px;
+  margin: 3px;
 }
 
-/*.meme-form > button {} */
-/* Lägga till css för knappen yay */
+.meme-form button {
+  font-size: 1rem;
+  font-family: "Comic Neue", cursive;
+  border-radius: 10%;
+  border: rgba(0, 0, 0, 0.303) solid;
+  background-color: rgba(0, 0, 0, 0.05);
+  color: rgba(0, 0, 0, 0.703);
+}
+
+.generator {
+  padding-bottom: 50px;
+  display: flex;
+  flex-direction: column;
+}
+
+.form-box {
+  display: flex;
+  justify-content: flex-end;
+}

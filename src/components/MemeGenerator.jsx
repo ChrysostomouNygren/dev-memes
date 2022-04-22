@@ -1,10 +1,9 @@
 import React, { Component } from "react";
 import "../styles/memeGenerator.css";
 
-
 // Att göra:
 // 1. clear inputfield när generate-knappen trycks på
-// 2. 
+// 2.
 
 class MemeGenerator extends Component {
   constructor() {
@@ -48,24 +47,26 @@ class MemeGenerator extends Component {
 
   render() {
     return (
-      <div>
-        <form className="meme-form">
-          <input
-            type="text"
-            name="topText"
-            placeholder="top text bruh"
-            value={this.state.topText}
-            onChange={this.handleChange}
-          />
-          <input
-            type="text"
-            name="bottomText"
-            placeholder="bottom text bruh"
-            value={this.state.bottomText}
-            onChange={this.handleChange}
-          />
-          <button onClick={this.handleSubmit}>generate meme</button>
-        </form>
+      <div className="generator">
+        <div className="form-box">
+          <form className="meme-form">
+            <input
+              type="text"
+              name="topText"
+              placeholder="top text bruh"
+              value={this.state.topText}
+              onChange={this.handleChange}
+            />
+            <input
+              type="text"
+              name="bottomText"
+              placeholder="bottom text bruh"
+              value={this.state.bottomText}
+              onChange={this.handleChange}
+            />
+            <button onClick={this.handleSubmit}>generate meme</button>
+          </form>
+        </div>
         <main className="meme">
           <div className="meme-img">
             <img src={this.state.randomImg} alt="" />

@@ -6,7 +6,7 @@ function Create() {
   return (
     <div>
       <Header />
-      <h2>meme generator!</h2>
+      <h2 className='generator-headline'>meme generator!</h2>
       <MemeGenerator />
     </div>
   )
