@@ -1,0 +1,14 @@
+.row img {
+    padding: 5px;
+}
+
+.col {
+    margin: 30px;
+}
+
+h2 {
+    font-family: "Comic Neue", cursive;
+    color: rgba(0, 0, 0, 0.703);
+    margin-left: 110px;
+    margin-top: 40px;
+}

@@ -7,11 +7,12 @@ import { Modal, Button, Container, Row, Col } from "react-bootstrap";
 import { pictureState } from "../recoil/pictures/atom";
 import { useRecoilState } from "recoil";
 
+import "../styles/all.css";
 
 function All() {
   // const randomMemeArray = memes.sort(() => Math.random() - 0.5);
   const [modalShow, setModalShow] = useState(false);
-  const [url, setUrl] = useRecoilState(pictureState)
+  const [url, setUrl] = useRecoilState(pictureState);
 
   function MyVerticallyCenteredModal(props) {
     return (
@@ -44,12 +45,18 @@ function All() {
         <Row xs={"auto"} md={"auto"} lg={"auto"}>
           <Col>
             {memes.map((item) => (
-                <img src={item.url} onClick={() => {setModalShow(true), setUrl(item.url)}} width={"200px"} />
-                ))}
-                <MyVerticallyCenteredModal
-                  show={modalShow}
-                  onHide={() => setModalShow(false)}
-                />
+              <img
+                src={item.url}
+                onClick={() => {
+                  setModalShow(true), setUrl(item.url);
+                }}
+                width={"200px"}
+              />
+            ))}
+            <MyVerticallyCenteredModal
+              show={modalShow}
+              onHide={() => setModalShow(false)}
+            />
           </Col>
         </Row>
       </Container>
