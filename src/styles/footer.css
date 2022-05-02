@@ -2,6 +2,8 @@ footer {
     font-family: "Comic Neue", cursive;
     margin-top: 50px;
     padding-bottom: 50px;
+    position: fixed;
+    bottom: 0;
 }
 
 footer h5 {
